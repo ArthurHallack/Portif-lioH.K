@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 1vh;
+    height: 1vh;
+
+}
+::-webkit-scrollbar-track {
+    background: #333;
+}
+::-webkit-scrollbar-thumb {
+    background: #AD7114;
+}
+
+.fundo1 {
+    background-image:url(WardenFogo.gif) ;
+    width: 207vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fundo1 .titulo {
+    color: rgba(255, 230, 0, 0.788);
+    display: flex;
+    font-size: 5vh;
+    font-family: 'Press Start 2P', cursive;
+    justify-content: start;
+    margin-left: 7vh;
+    margin-top: 35vh;
+    position: absolute;
+}
+.topo ul {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 4vh;
+    margin: 3vh;
+    font-size: 2vh;
+    top: -1vh;
+    
+}
+.topo ul a {
+    color: white;
+}
+#sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20cm;
+    background-color: black;
+    color: beige;
+}
+
