@@ -48,13 +48,36 @@
 .topo ul a {
     color: white;
 }
-#sobre {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20cm;
-    background-color: black;
-    color: beige;
+#Titulo1 {
+    color: rgba(255, 230, 0, 0.788);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17vh;
+    margin-left: 10%;
+}
+#subtitulo1 {
+    color: rgba(255, 230, 0, 0.788);
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 60%;
+    margin-top: 8%;
+}
+#p1 {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 5%;
+    margin-left: 60%;
+    color: #AD7114;
+
+}
+#Gif1 {
+    margin-left: 12%;
+    margin-top: -15%;
+}
+.Sobre {
+    
+}
+#Titulo2{
+    color: rgba(255, 230, 0, 0.788);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17vh;
+    margin-left: 10%;
 }
 
