@@ -22,7 +22,7 @@
     width: 207vh;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .fundo1 .titulo {
     color: rgba(255, 230, 0, 0.788);
@@ -71,7 +71,8 @@
     margin-left: 12%;
     margin-top: -15%;
 }
-.Sobre {
+.Sobre {    
+    background-color: grey;
     
 }
 #Titulo2{
