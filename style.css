@@ -54,7 +54,7 @@
     font-size: 17vh;
     margin-left: 10%;
 }
-#subtitulo1 {
+#sobre {
     color: rgba(255, 230, 0, 0.788);
     font-family: 'Press Start 2P', cursive;
     margin-left: 60%;
@@ -75,7 +75,7 @@
     background-color: grey;
     
 }
-#Titulo2{
+#skills{
     color: rgba(255, 230, 0, 0.788);
     font-family: 'Press Start 2P', cursive;
     font-size: 17vh;
