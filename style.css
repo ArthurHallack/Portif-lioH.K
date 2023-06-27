@@ -19,6 +19,11 @@
 ::-webkit-scrollbar-thumb {
     background: #AD7114;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: #111;
 }
@@ -29,9 +34,9 @@ main {
 
 /*TOPO*/
 
-
 #ContainerTop {
     background-image: url(img/WardenFogo.gif);
+    box-shadow: inset 0px -40px 40px #000;
     background-size: cover;
     background-repeat: no-repeat;
     width: 85rem;
@@ -43,48 +48,59 @@ main {
     
 }
 
-#TituloTop {
-    margin-left: 20vh;
-    margin-top: 60vh;
+#EU {
+    width: 10rem;
+    border-radius: 50%;
+    margin-left: 25vh;
+    margin-top: 10rem;
+    border: 6px inset rgba(255, 230, 0, 0.788);
 }
 
-#Titulo2Top h2 {
-    scale: 1.2;
+#TituloTop {
+    margin-left: 21vh;
+
 }
 
 #Titulo2Top a {
     color: rgba(255, 230, 0, 0.788);
-    margin-left: 23vh;
+    margin-left: 24vh;
     border: 4px inset rgba(255, 230, 0, 0.788); 
 }
 
 /*Sobre mim*/
 
-.Area-Sobre {
-    background-color: #333;
+#SobreMimT {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    border:  double 5px rgba(255, 230, 0, 0.788);
+}
+
+#PArea {
+    font-size: 130px;
+    color: rgba(255, 230, 0, 0.768); 
+ }
+ 
+#Area-Sobre {
+    background-image: url(img/fundoSobre.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px -40px 40px #000;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10rem;
 }
 
-#EU {
-    width: 20rem;
-    border-radius: 50%;
-    margin-left: 20vh;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+#cavaleiro {
+    margin-left: 9rem;
 }
 
 #AreaSobre2 {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-}
-
-#PArea {
-    border: 2px solid;
-    width: 12rem;
+    color: rgba(255, 230, 0, 0.788);
 }
 
 .ListaSobre {
