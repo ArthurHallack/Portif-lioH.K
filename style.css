@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    background: #111;
+    background: #000;
 }
 main {
     display: flex;
@@ -72,7 +72,6 @@ main {
 #SobreMimT {
     display: flex;
     justify-content: center;
-    background-color: #000;
     border:  double 5px rgba(255, 230, 0, 0.788);
 }
 
@@ -82,10 +81,7 @@ main {
  }
  
 #Area-Sobre {
-    background-image: url(img/fundoSobre.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 0px -40px 40px #000;
+    box-shadow: inset 0px 40px 40px #000;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -93,7 +89,10 @@ main {
 }
 
 #cavaleiro {
+    margin-top: 2rem;
     margin-left: 9rem;
+    border: inset 5px rgba(255, 230, 0, 0.788);
+    background-color: #000;
 }
 
 #AreaSobre2 {
@@ -114,7 +113,6 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 10rem;
-    background-color: #AD7114;
 }
 
 #Fogo {
@@ -122,11 +120,13 @@ main {
     height: 19rem;
     margin-top: 10rem;
     margin-bottom: 5rem;
+    border: inset 5px rgba(255, 230, 0, 0.788);
+    background-color: #000;
 }
 
-#PTecnologias {
-    border: 2px solid;
-    width: 13rem;
+#H1Tecnologias {
+    color: rgba(255, 230, 0, 0.768);
+    font-size: 2rem;
 }
 
 
