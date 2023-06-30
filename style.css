@@ -152,3 +152,38 @@ li {
 
 /*projetos*/
 
+.ProjetosTitulo{
+    display: flex;
+    justify-content: center;
+    border:  double 5px rgba(255, 230, 0, 0.788);
+}
+
+#Tprojetos {
+    font-size: 130px;
+    color: rgba(255, 230, 0, 0.768);
+}
+
+.Projetos {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#ListaProjetos {
+    display: flex;
+    gap: 48px;
+    margin-top: 5rem;
+}
+
+.imgProjeto {
+    width: 500px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+/*footer*/
+
+footer {
+    display: grid;
+    border-top: 2px solid #AD7114;
+    color: #AD7114;;
+}
