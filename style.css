@@ -147,7 +147,11 @@ li {
 }
 
 .TecItem {
-    
+    margin-top: 2rem;
+}
+
+i {
+    font-size: 4rem;
 }
 
 /*projetos*/
@@ -183,7 +187,13 @@ li {
 /*footer*/
 
 footer {
-    display: grid;
+    display: flex;
     border-top: 2px solid #AD7114;
-    color: #AD7114;;
+    color: #AD7114;
+    justify-content: center;
+}
+
+#PFooter {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
