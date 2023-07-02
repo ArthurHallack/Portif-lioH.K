@@ -144,6 +144,7 @@ li {
 #TecnologiasList{
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .TecItem {
@@ -152,6 +153,7 @@ li {
 
 i {
     font-size: 4rem;
+    color: rgb(177, 18, 177);
 }
 
 /*projetos*/
@@ -177,13 +179,36 @@ i {
     display: flex;
     gap: 48px;
     margin-top: 5rem;
+    flex-wrap: wrap;
 }
 
 .imgProjeto {
     width: 500px;
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
+
+/*contatos*/
+
+#contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#TituloContatos {
+    color: rgba(255, 230, 0, 0.788);
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+#ListaContatos {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
 /*footer*/
 
 footer {
