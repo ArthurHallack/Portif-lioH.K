@@ -16,7 +16,7 @@
             <div id="ContainerTop">
                 <img src="img/eu.jpg" alt="eu" id="EU">
                 <h1 id="TituloTop">Full Stack <br> Developer</h1>
-                <h2 id="Titulo2Top"><a href="#Area-Sobre">-START-</a></h2>
+                <button id="Titulo2Top" onclick="scrollToSection('SobreMimTitulo')">-START-</button>
             </div>  
         </section>
         <!--SOBRE MIM-->
@@ -54,8 +54,16 @@
         </section>
         <section class="AreaProjetos">
             <ul id="ListaProjetos">
-                <li class="ItemListaP"><a href="https://github.com/ArthurHallack/AmigoSecreto" target="_blank"><img src="img/amigoSecreto.png" alt="amigoSecreto" class="imgProjeto"></a></li>
-                <li class="ItemListaP"><a href="https://github.com/ArthurHallack/Cronometro.js" target="_blank"><img src="img/cronometro.png" alt="cronometro" class="imgProjeto"></a></li>
+                <li class="ItemListaP">
+                    <a href="https://github.com/ArthurHallack/AmigoSecreto" target="_blank">
+                        <img src="img/amigoSecreto.png" alt="amigoSecreto" class="imgProjeto" id="ImagemAmigoSecreto">
+                    </a>
+                </li>
+                <li class="ItemListaP">
+                    <a href="https://github.com/ArthurHallack/Cronometro.js" target="_blank">
+                        <img src="img/cronometro.png" alt="cronometro" class="imgProjeto" id="ProjetoCronometro">
+                    </a>
+                </li>
             </ul>
         </section>
         <!--contatos-->

@@ -16,7 +16,6 @@
 ::-webkit-scrollbar {
     width: 1vh;
     height: 1vh;
-
 }
 ::-webkit-scrollbar-track {
     background: #333;
@@ -24,11 +23,6 @@
 ::-webkit-scrollbar-thumb {
     background: #AD7114;
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: #000;
 }
@@ -66,10 +60,14 @@ main {
 
 }
 
-#Titulo2Top a {
+#Titulo2Top  {
     color: rgba(255, 230, 0, 0.788);
-    margin-left: 24vh;
-    border: 4px inset rgba(255, 230, 0, 0.788); 
+    border: 4px inset rgba(255, 230, 0, 0.788);
+    width: 8rem;
+    margin-left: 29vh; 
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1rem;
     animation-name: animacao;
     animation-duration: 2s;
     animation-iteration-count: infinite;
