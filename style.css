@@ -156,6 +156,95 @@ i {
     color: rgb(177, 18, 177);
 }
 
+/*Técnologias --- Modais*/
+
+#ModalHTML {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 75%;
+    color: rgba(255, 230, 0, 0.768);
+    background-color: rgba(110, 110, 110, 0.768);
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: inset 5px rgba(255, 230, 0, 0.788);
+}
+
+
+#ModalCSS {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 75%;
+    color: rgba(255, 230, 0, 0.768);
+    background-color: rgba(110, 110, 110, 0.768);
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: inset 5px rgba(255, 230, 0, 0.788);
+}
+
+#ModalJS {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 75%;
+    color: rgba(255, 230, 0, 0.768);
+    background-color: rgba(110, 110, 110, 0.768);
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: inset 5px rgba(255, 230, 0, 0.788);
+}
+
+#ModalNode {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 75%;
+    color: rgba(255, 230, 0, 0.768);
+    background-color: rgba(110, 110, 110, 0.768);
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: inset 5px rgba(255, 230, 0, 0.788);
+}
+
+#ModalGit {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 75%;
+    color: rgba(255, 230, 0, 0.768);
+    background-color: rgba(110, 110, 110, 0.768);
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: inset 5px rgba(255, 230, 0, 0.788);
+}
+
+
 /*projetos*/
 
 .ProjetosTitulo{
