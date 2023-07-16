@@ -175,6 +175,15 @@ i {
     border: inset 5px rgba(255, 230, 0, 0.788);
 }
 
+#ConteudoModalHtml {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    margin-left: 1rem;
+}
 
 #ModalCSS {
     display: none;
@@ -191,6 +200,16 @@ i {
     margin-top: 5%;
     border-radius: 20px;
     border: inset 5px rgba(255, 230, 0, 0.788);
+}
+
+#ConteudoModalCSS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    margin-left: 1rem;
 }
 
 #ModalJS {
@@ -210,6 +229,16 @@ i {
     border: inset 5px rgba(255, 230, 0, 0.788);
 }
 
+#ConteudoModalJS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
 #ModalNode {
     display: none;
     position: fixed;
@@ -225,6 +254,16 @@ i {
     margin-top: 5%;
     border-radius: 20px;
     border: inset 5px rgba(255, 230, 0, 0.788);
+}
+
+#ConteudoModalNode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    margin-left: 1rem;
 }
 
 #ModalGit {
@@ -244,6 +283,15 @@ i {
     border: inset 5px rgba(255, 230, 0, 0.788);
 }
 
+#ConteudoModalGit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    margin-left: 1rem;
+}
 
 /*projetos*/
 
